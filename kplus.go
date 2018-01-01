@@ -113,7 +113,7 @@ func convertToKdb(s []string) []string {
 }
 
 func replaceKdbMarket(s string) string {
-	r := strings.NewReplacer("一部", "1部", "二部", "2部", "JQG", "JQグロース", "JQS", "JSスタンダード", "福証QB", "福証Q-Board", "アンビシャス", "アンビ")
+	r := strings.NewReplacer("一部", "1部", "二部", "2部", "JQG", "JQグロース", "JQS", "JQスタンダード", "福証QB", "福証Q-Board", "アンビシャス", "アンビ")
 	return r.Replace(s)
 }
 
