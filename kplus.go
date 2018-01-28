@@ -15,7 +15,9 @@ import (
 )
 
 const dateFormat = "20060102"
-const priceUrl = "https://secure6216m.sakura.ne.jp:9802/csvex/webdav/kabu.plus/csv/japan-all-stock-prices/daily/japan-all-stock-prices_%s.csv"
+
+//const priceUrl = "https://secure6216m.sakura.ne.jp:9802/csvex/webdav/kabu.plus/csv/japan-all-stock-prices/daily/japan-all-stock-prices_%s.csv" // WebDAV
+const priceUrl = "https://hesonogoma.com/stocks/download/csv/japan-all-stock-prices/daily/japan-all-stock-prices_%s.csv"
 
 type KPlus struct {
 	user string
